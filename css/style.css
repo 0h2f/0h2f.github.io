@@ -1,0 +1,166 @@
+body {
+    background: #191b1c;
+    color: #ff8ecd;
+    max-width: 850px;
+    margin: auto;
+    padding: 0 16px;
+    margin-bottom: 500px;
+    scrollbar-color: gray #151515;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: .66vw;
+    background-color: #151515;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+p {
+    color: #c8c3bc;
+}
+
+b,
+strong {
+    color: #ff8ecd;
+}
+
+a {
+    color: #ff1a9b;
+    text-decoration: none;
+}
+
+#tagcloud {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#tagcloud li {
+    display: inline-block;
+}
+
+#tagcloud a {
+    margin: .1em .25em;
+}
+
+a:visited {
+    color: #dc499c;
+}
+
+a:hover {
+    color: #ffdbef;
+    text-decoration: underline;
+}
+
+h1 {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff33a7;
+    text-align: center;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    padding: 1em;
+}
+
+img {
+    max-width: 90%;
+    max-height: 400px;
+    margin: auto;
+    display: block;
+}
+
+code {
+    overflow-wrap: break-word;
+    color: lime;
+}
+
+.center {
+    text-align: center;
+}
+
+.taglist {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+img[alt="BTC Logo"],
+img[alt="ETH Logo"],
+img[alt="XMR Logo"] {
+    max-width: 1em;
+    max-height: 1em;
+    display: inline;
+}
+
+@media (pointer: coarse) {
+    li>a {
+        display: inline-block;
+        padding: 0.2em 0;
+    }
+}
+
+@media print {
+    a[href] {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer,
+    .taglist {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+}
+
+.older-article {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.cryptocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cryptoinfo {
+    max-width: 350px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cryptoinfo code {
+    font-size: small;
+    overflow-wrap: break-word;
+}
+
+.qr {
+    max-height: 150px;
+    ;
+}
+
+.js-only {
+    display: none;
+}
