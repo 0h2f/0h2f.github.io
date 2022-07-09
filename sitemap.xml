@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>aisaka.xyz/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>aisaka.xyz/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>aisaka.xyz/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

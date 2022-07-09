@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aisakaxyz`s website</title>
-    <link>aisaka.xyz/</link>
+    <link>/</link>
     <description>Recent content on Aisakaxyz`s website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="aisaka.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
